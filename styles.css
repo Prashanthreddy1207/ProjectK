@@ -1,5 +1,10 @@
+:root {
+  --primary: #a4e9e9;
+  --staging: #d2ebeb;
+}
+
 body {
-  background-color: #d2ebeb;
+  background-color: var(--staging);
   text-align: center;
   height: 100vh;
 }
@@ -7,4 +12,12 @@ button {
   padding: 5px;
   background-color: #cef495;
   border: 2px solid #80c713;
+}
+
+.bg-c {
+  background-color: var(--primary);
+}
+
+#main {
+  width: 100vw;
 }

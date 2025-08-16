@@ -16,4 +16,5 @@ document.addEventListener("DOMContentLoaded", () => {
   loadHTML("header", "header.html");
   loadHTML("caurosal", "caurosal.html");
   loadHTML("content", "content.html");
+  loadHTML("footer", "footer.html");
 });
