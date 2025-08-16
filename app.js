@@ -14,5 +14,6 @@ function loadHTML(elementId, file) {
 // Load Header and Main
 document.addEventListener("DOMContentLoaded", () => {
   loadHTML("header", "header.html");
-  loadHTML("main", "main.html");
+  loadHTML("caurosal", "caurosal.html");
+  loadHTML("content", "content.html");
 });
