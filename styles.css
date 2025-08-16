@@ -1,5 +1,6 @@
 :root {
-  --primary: #a4e9e9;
+  --navBg: #31c2c2;
+  --primary: #74a1a1;
   --staging: #d2ebeb;
 }
 
@@ -20,4 +21,10 @@ button {
 
 #main {
   width: 100vw;
+}
+.navbar {
+  background-color: var(--navBg) !important;
+}
+.card-header {
+  background-color: var(--primary);
 }
